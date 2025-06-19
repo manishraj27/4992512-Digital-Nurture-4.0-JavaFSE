@@ -15,13 +15,6 @@ public class Product {
         return productId;
     }
 
-    public String getProductName() {
-        return productName;
-    }
-
-    public String getCategory() {
-        return category;
-    }
 
     @Override
     public String toString() {
