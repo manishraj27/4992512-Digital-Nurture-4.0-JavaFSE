@@ -1,0 +1,17 @@
+-- Create CUSTOMERS table
+CREATE TABLE CUSTOMERS (
+  CustomerID NUMBER PRIMARY KEY,
+  Name VARCHAR2(50),
+  Age NUMBER,
+  Balance NUMBER,
+  IsVIP VARCHAR2(5) -- 'TRUE' or 'FALSE'
+);
+
+-- Create LOANS table
+CREATE TABLE LOANS (
+  LoanID NUMBER PRIMARY KEY,
+  CustomerID NUMBER REFERENCES CUSTOMERS(CustomerID),
+  DueDate DATE,
+  InterestRate NUMBER
+);
+/
