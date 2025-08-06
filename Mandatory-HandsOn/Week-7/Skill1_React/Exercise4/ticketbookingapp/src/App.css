@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0 0 20px 0;
+  color: #333;
+}
+
+header button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+header button:hover {
+  background-color: #0056b3;
+}
+
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.flight-card {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.booking-form {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin: 10px 0;
+  text-align: left;
+}
+
+.form-group label {
+  display: inline-block;
+  width: 120px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 200px;
+}
+
+.book-button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.book-button:hover {
+  background-color: #218838;
+}
+
+.login-message {
+  color: red;
+  font-style: italic;
+}
